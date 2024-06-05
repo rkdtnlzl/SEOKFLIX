@@ -14,15 +14,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        if let windowScene = scene as? UIWindowScene {
-            let window = UIWindow(windowScene: windowScene)
-            let viewController = OnboardingViewController()
-            let navigationController = UINavigationController(rootViewController: viewController)
-            window.rootViewController = navigationController
-            self.window = window
-            window.makeKeyAndVisible()
-        }
+        // 넷플릭스 과제
+//        if let windowScene = scene as? UIWindowScene {
+//            let window = UIWindow(windowScene: windowScene)
+//            let viewController = OnboardingViewController()
+//            let navigationController = UINavigationController(rootViewController: viewController)
+//            window.rootViewController = navigationController
+//            self.window = window
+//            window.makeKeyAndVisible()
+//        }
+        
+        // 로또 과제
+        guard let scene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: scene)
+        let vc = LottoViewController()
+        window?.rootViewController = vc
+        window?.makeKeyAndVisible()
     }
+    
     
     func changeRootViewController(to viewController: UIViewController, animated: Bool = true) {
         guard let window = self.window else { return }

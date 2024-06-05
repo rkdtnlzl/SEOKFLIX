@@ -18,6 +18,8 @@
 		016B9BB62C0F299B009D2996 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9BB52C0F299B009D2996 /* ProfileViewController.swift */; };
 		016B9BB82C0F2BA5009D2996 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9BB72C0F2BA5009D2996 /* SearchViewController.swift */; };
 		016B9BEA2C103D40009D2996 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9BE92C103D40009D2996 /* LottoViewController.swift */; };
+		016B9BED2C103D78009D2996 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 016B9BEC2C103D78009D2996 /* Alamofire */; };
+		016B9BEF2C103FB5009D2996 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 016B9BEE2C103FB5009D2996 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		016B9BB52C0F299B009D2996 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		016B9BB72C0F2BA5009D2996 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		016B9BE92C103D40009D2996 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		016B9BEE2C103FB5009D2996 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				016B9BB02C0F0FCA009D2996 /* SnapKit in Frameworks */,
+				016B9BED2C103D78009D2996 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +54,7 @@
 		016B9B8E2C0F0DAF009D2996 = {
 			isa = PBXGroup;
 			children = (
+				016B9BEE2C103FB5009D2996 /* .gitignore */,
 				016B9B992C0F0DB0009D2996 /* CodeBase_Assignment */,
 				016B9B982C0F0DB0009D2996 /* Products */,
 			);
@@ -99,6 +104,7 @@
 			name = CodeBase_Assignment;
 			packageProductDependencies = (
 				016B9BAF2C0F0FCA009D2996 /* SnapKit */,
+				016B9BEC2C103D78009D2996 /* Alamofire */,
 			);
 			productName = SEOKFLIX;
 			productReference = 016B9B972C0F0DB0009D2996 /* CodeBase_Assignment.app */;
@@ -130,6 +136,7 @@
 			mainGroup = 016B9B8E2C0F0DAF009D2996;
 			packageReferences = (
 				016B9BAE2C0F0FCA009D2996 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				016B9BEB2C103D78009D2996 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 016B9B982C0F0DB0009D2996 /* Products */;
 			projectDirPath = "";
@@ -146,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				016B9BA42C0F0DB2009D2996 /* Assets.xcassets in Resources */,
+				016B9BEF2C103FB5009D2996 /* .gitignore in Resources */,
 				016B9BA72C0F0DB2009D2996 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +405,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		016B9BEB2C103D78009D2996 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -404,6 +420,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 016B9BAE2C0F0FCA009D2996 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		016B9BEC2C103D78009D2996 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 016B9BEB2C103D78009D2996 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
