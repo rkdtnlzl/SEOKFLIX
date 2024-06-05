@@ -17,10 +17,11 @@
 		016B9BB42C0F2964009D2996 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9BB32C0F2964009D2996 /* TabBarViewController.swift */; };
 		016B9BB62C0F299B009D2996 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9BB52C0F299B009D2996 /* ProfileViewController.swift */; };
 		016B9BB82C0F2BA5009D2996 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9BB72C0F2BA5009D2996 /* SearchViewController.swift */; };
+		016B9BEA2C103D40009D2996 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9BE92C103D40009D2996 /* LottoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		016B9B972C0F0DB0009D2996 /* SEOKFLIX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEOKFLIX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		016B9B972C0F0DB0009D2996 /* CodeBase_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeBase_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016B9B9A2C0F0DB0009D2996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016B9B9C2C0F0DB0009D2996 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		016B9B9E2C0F0DB0009D2996 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +32,7 @@
 		016B9BB32C0F2964009D2996 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		016B9BB52C0F299B009D2996 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		016B9BB72C0F2BA5009D2996 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		016B9BE92C103D40009D2996 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		016B9B8E2C0F0DAF009D2996 = {
 			isa = PBXGroup;
 			children = (
-				016B9B992C0F0DB0009D2996 /* SEOKFLIX */,
+				016B9B992C0F0DB0009D2996 /* CodeBase_Assignment */,
 				016B9B982C0F0DB0009D2996 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +58,12 @@
 		016B9B982C0F0DB0009D2996 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				016B9B972C0F0DB0009D2996 /* SEOKFLIX.app */,
+				016B9B972C0F0DB0009D2996 /* CodeBase_Assignment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		016B9B992C0F0DB0009D2996 /* SEOKFLIX */ = {
+		016B9B992C0F0DB0009D2996 /* CodeBase_Assignment */ = {
 			isa = PBXGroup;
 			children = (
 				016B9B9A2C0F0DB0009D2996 /* AppDelegate.swift */,
@@ -71,19 +73,20 @@
 				016B9BB72C0F2BA5009D2996 /* SearchViewController.swift */,
 				016B9BB52C0F299B009D2996 /* ProfileViewController.swift */,
 				016B9BB32C0F2964009D2996 /* TabBarViewController.swift */,
+				016B9BE92C103D40009D2996 /* LottoViewController.swift */,
 				016B9BA32C0F0DB2009D2996 /* Assets.xcassets */,
 				016B9BA52C0F0DB2009D2996 /* LaunchScreen.storyboard */,
 				016B9BA82C0F0DB2009D2996 /* Info.plist */,
 			);
-			path = SEOKFLIX;
+			path = CodeBase_Assignment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		016B9B962C0F0DB0009D2996 /* SEOKFLIX */ = {
+		016B9B962C0F0DB0009D2996 /* CodeBase_Assignment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 016B9BAB2C0F0DB2009D2996 /* Build configuration list for PBXNativeTarget "SEOKFLIX" */;
+			buildConfigurationList = 016B9BAB2C0F0DB2009D2996 /* Build configuration list for PBXNativeTarget "CodeBase_Assignment" */;
 			buildPhases = (
 				016B9B932C0F0DB0009D2996 /* Sources */,
 				016B9B942C0F0DB0009D2996 /* Frameworks */,
@@ -93,12 +96,12 @@
 			);
 			dependencies = (
 			);
-			name = SEOKFLIX;
+			name = CodeBase_Assignment;
 			packageProductDependencies = (
 				016B9BAF2C0F0FCA009D2996 /* SnapKit */,
 			);
 			productName = SEOKFLIX;
-			productReference = 016B9B972C0F0DB0009D2996 /* SEOKFLIX.app */;
+			productReference = 016B9B972C0F0DB0009D2996 /* CodeBase_Assignment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 016B9B922C0F0DAF009D2996 /* Build configuration list for PBXProject "SEOKFLIX" */;
+			buildConfigurationList = 016B9B922C0F0DAF009D2996 /* Build configuration list for PBXProject "CodeBase_Assignment" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				016B9B962C0F0DB0009D2996 /* SEOKFLIX */,
+				016B9B962C0F0DB0009D2996 /* CodeBase_Assignment */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +162,7 @@
 				016B9B9F2C0F0DB0009D2996 /* OnboardingViewController.swift in Sources */,
 				016B9B9B2C0F0DB0009D2996 /* AppDelegate.swift in Sources */,
 				016B9B9D2C0F0DB0009D2996 /* SceneDelegate.swift in Sources */,
+				016B9BEA2C103D40009D2996 /* LottoViewController.swift in Sources */,
 				016B9BB42C0F2964009D2996 /* TabBarViewController.swift in Sources */,
 				016B9BB22C0F1737009D2996 /* MainViewController.swift in Sources */,
 			);
@@ -306,7 +310,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7S6PH8TVFD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SEOKFLIX/Info.plist;
+				INFOPLIST_FILE = CodeBase_Assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -317,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seokho.SEOKFLIX;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seokho.CodeBase_Assignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -338,7 +342,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7S6PH8TVFD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SEOKFLIX/Info.plist;
+				INFOPLIST_FILE = CodeBase_Assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -349,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seokho.SEOKFLIX;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seokho.CodeBase_Assignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -364,7 +368,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		016B9B922C0F0DAF009D2996 /* Build configuration list for PBXProject "SEOKFLIX" */ = {
+		016B9B922C0F0DAF009D2996 /* Build configuration list for PBXProject "CodeBase_Assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				016B9BA92C0F0DB2009D2996 /* Debug */,
@@ -373,7 +377,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		016B9BAB2C0F0DB2009D2996 /* Build configuration list for PBXNativeTarget "SEOKFLIX" */ = {
+		016B9BAB2C0F0DB2009D2996 /* Build configuration list for PBXNativeTarget "CodeBase_Assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				016B9BAC2C0F0DB2009D2996 /* Debug */,
