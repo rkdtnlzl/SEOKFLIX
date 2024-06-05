@@ -20,6 +20,8 @@
 		016B9BEA2C103D40009D2996 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9BE92C103D40009D2996 /* LottoViewController.swift */; };
 		016B9BED2C103D78009D2996 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 016B9BEC2C103D78009D2996 /* Alamofire */; };
 		016B9BEF2C103FB5009D2996 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 016B9BEE2C103FB5009D2996 /* .gitignore */; };
+		016B9BF12C109062009D2996 /* LottoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9BF02C109062009D2996 /* LottoData.swift */; };
+		016B9BF52C10A193009D2996 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9BF42C10A193009D2996 /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		016B9BB72C0F2BA5009D2996 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		016B9BE92C103D40009D2996 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
 		016B9BEE2C103FB5009D2996 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		016B9BF02C109062009D2996 /* LottoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoData.swift; sourceTree = "<group>"; };
+		016B9BF42C10A193009D2996 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				016B9BB52C0F299B009D2996 /* ProfileViewController.swift */,
 				016B9BB32C0F2964009D2996 /* TabBarViewController.swift */,
 				016B9BE92C103D40009D2996 /* LottoViewController.swift */,
+				016B9BF02C109062009D2996 /* LottoData.swift */,
+				016B9BF42C10A193009D2996 /* APIKey.swift */,
 				016B9BA32C0F0DB2009D2996 /* Assets.xcassets */,
 				016B9BA52C0F0DB2009D2996 /* LaunchScreen.storyboard */,
 				016B9BA82C0F0DB2009D2996 /* Info.plist */,
@@ -169,6 +175,8 @@
 				016B9BB82C0F2BA5009D2996 /* SearchViewController.swift in Sources */,
 				016B9B9F2C0F0DB0009D2996 /* OnboardingViewController.swift in Sources */,
 				016B9B9B2C0F0DB0009D2996 /* AppDelegate.swift in Sources */,
+				016B9BF52C10A193009D2996 /* APIKey.swift in Sources */,
+				016B9BF12C109062009D2996 /* LottoData.swift in Sources */,
 				016B9B9D2C0F0DB0009D2996 /* SceneDelegate.swift in Sources */,
 				016B9BEA2C103D40009D2996 /* LottoViewController.swift in Sources */,
 				016B9BB42C0F2964009D2996 /* TabBarViewController.swift in Sources */,
