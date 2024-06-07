@@ -27,7 +27,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // 로또 과제
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
-        let vc = LottoViewController()
+        let vc = BoxOfficeViewController()
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
     }
