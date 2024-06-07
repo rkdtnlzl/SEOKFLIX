@@ -10,6 +10,7 @@ import SnapKit
 
 class BoxOfficeTableViewCell: UITableViewCell {
     
+    let rankView = UIView()
     let rankLabel = UILabel()
     let movieNameLabel = UILabel()
     let openDateLabel = UILabel()
@@ -34,26 +35,35 @@ class BoxOfficeTableViewCell: UITableViewCell {
     }
     
     func configureUI() {
-        contentView.addSubview(rankLabel)
+        contentView.addSubview(rankView)
+        rankView.addSubview(rankLabel)
         contentView.addSubview(movieNameLabel)
         contentView.addSubview(openDateLabel)
         
-        rankLabel.font = UIFont.boldSystemFont(ofSize: 16)
+        rankView.backgroundColor = .white
+        rankLabel.font = UIFont.boldSystemFont(ofSize: 17)
+        rankLabel.textColor = .black
         movieNameLabel.font = UIFont.boldSystemFont(ofSize: 17)
+        movieNameLabel.textColor = .white
         openDateLabel.font = UIFont.systemFont(ofSize: 14)
         openDateLabel.textColor = .gray
     }
     
     func configureLayout() {
         
-        rankLabel.snp.makeConstraints { make in
-            make.centerY.equalToSuperview()
+        rankView.snp.makeConstraints { make in
+            make.top.bottom.equalToSuperview().inset(15)
             make.leading.equalToSuperview().inset(10)
+            make.width.equalTo(50)
+        }
+        
+        rankLabel.snp.makeConstraints { make in
+            make.center.equalTo(rankView)
         }
         
         movieNameLabel.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
-            make.leading.equalTo(rankLabel.snp.trailing).offset(20)
+            make.leading.equalTo(rankView.snp.trailing).offset(20)
             make.width.equalTo(200)
         }
         
